@@ -12,6 +12,7 @@ This repository prepares a presentation package for initial grant and technical 
 - General resource needs and illustrative planning allocations.
 - Translations of the core reviewer brief.
 - Reviewed presentation media, when available.
+- Video scripts and storyboards, clearly distinguished from generated media and speech transcripts.
 - Dated, aggregated engineering statistics and high-level regression examples, with unresolved issues stated explicitly.
 
 ## Outside this repository

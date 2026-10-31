@@ -1,5 +1,7 @@
 # Alice Talk — Projeye Genel Bakış ve Araştırma Planı
 
+Tanıtım materyalleri: [İngilizce ve Türkçe animasyon, İngilizce sesli özet ve infografik](../../media/README.md).
+
 **Çeviri notu:** Bu metin Türkçe çeviridir. Anlam veya yorum farklılığında [esas İngilizce metin](../en/overview.md) geçerlidir.
 
 **Çalışma adı:** “Alice Talk” geçici bir addır; kriptografi örneklerinde geleneksel olarak kullanılan Alice ve Bob katılımcılarından esinlenmiştir. Nihai ürün adı daha sonra seçilecektir. Çalışma adı, başka bir kuruluşla herhangi bir bağlantı olduğu anlamına gelmez.
@@ -30,6 +32,8 @@ Projenin çıkış noktası kamu yararıdır: diller ve ülkeler arasında ileti
 | İnsan–yapay zekâ ve ajan–ajan iletişimi | Önerilen bir araştırma uzantısıdır; tamamlanmış bir üretim entegrasyonu olduğu iddia edilmez. |
 | Güvenlik güvencesi | Geliştiricinin çalıştırdığı otomatik testler, uygulamanın davranışını sınar; bağımsız kriptografi ve gizlilik denetimi henüz tamamlanmamıştır. |
 
+Mevcut mesajlaşma uygulamasında, kodla uygulanan kişi onayı ve engelleme kontrolleri canlı mesajlara, çevrimdışı alım filtrelerine ve kontrol isteklerine de uygulanır. Aramalar, geçmiş ve dosya kabulü için eyleme özel kullanıcı seçimleri vardır. Yalnız davetle katılım için yapılandırılmış bir aktarıcı, anahtar sahipliğini ve üyeliği kontrol eder. Bunlar sınırlı uygulama ve protokol kontrolleridir; genel bir ajan araç-yetkilendirme sistemi veya eksiksiz güvenlik kanıtı değildir.
+
 Bu dokümantasyon paketi bir açıklama ve plan sunar. Uygulama dağıtımı, bağımsız olarak yeniden üretilebilir bir test raporu veya güvenlik sertifikası değildir.
 
 ## 3. Kavramsal işleyiş
@@ -54,6 +58,8 @@ flowchart LR
 ```
 
 Aktarıcının bir mesajı kabul etmesi ile alıcının mesajı okuması farklı olaylardır. Kullanılabilir bir iletim yolunun bulunması, başka bir kişinin mesajı aldığını veya okuduğunu kanıtlamaz.
+
+Canlı gönderim yolu, aktarıcının kabulünü, açık bir çevrimdışı sonucunu ve belirsiz sonucu ayırır. Metin için ayrı çevrimdışı yol yalnızca açık bir çevrimdışı sonucunda seçilir; belirsiz bir canlı gönderim sonucu otomatik olarak yeni bir çevrimdışı gönderim başlatmaz. Bu kurallar belirsiz yeniden denemeleri sınırlar; her koşulda tam olarak bir kez teslim garantisi değildir.
 
 ## 4. Merkezsizleşme ve denetim
 
@@ -238,3 +244,5 @@ Aşağıdaki sayılar uygulama, ortak kütüphaneler, arayüz ve bağımsız gel
 Belgeler, bağımlılık ve üçüncü taraf dosyaları, kilit dosyaları, paket bildirimleri, dağıtım/yapılandırma dosyaları, üretilmiş paketler ve derleme çıktıları hariçtir. Sayım, etkin çalışma ortamına bağlanmamış deneysel kodları da içerir. Bu, korunmuş kodun belirli bir andaki büyüklüğüdür; bugüne kadar yazılan toplam satırı, kişisel yazarlığı, özelliklerin tamamlanma düzeyini veya güvenliği ölçmez.
 
 Ham günlükler, özel kaynak yolları ve uygulama geçmişi bu tanıtım paketinin dışındadır. Uygun olursa daha ayrıntılı, gizli olmayan kanıtlar ayrıca görüşülebilir.
+
+Geliştirici yardımcıları satırı, seçili JavaScript/TypeScript yardımcılarını sayar; kabuk yardımcıları ve derleme yapılandırması bu ölçümün dışındadır.

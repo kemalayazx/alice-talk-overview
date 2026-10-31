@@ -1,0 +1,116 @@
+{
+  "working_title": "Alice Talk",
+  "name_status": "temporary; inspired by conventional Alice/Bob cryptographic examples",
+  "language": "en",
+  "created_date": "2026-10-31",
+  "reference_document": "../docs/en/overview.md",
+  "endorsement_or_award_claimed": false,
+  "private_implementation_used_as_generation_source": false,
+  "assets": [
+    {
+      "file": "alice-talk-overview.en.png",
+      "kind": "infographic",
+      "bytes": 3843670,
+      "sha256": "7fb574a6d1278ba8f504b33cf1bcfd07247ad7fa01aa642fcc6fc8f8fdf6313b",
+      "dimensions_pixels": [
+        2752,
+        1536
+      ],
+      "orientation": "landscape",
+      "source": "English overview and engineering summary",
+      "review": "Visual comparison to written sources; contextual qualifications in README",
+      "generator": "NotebookLM / Gemini Notebook"
+    },
+    {
+      "file": "reference-narration.en.m4a",
+      "bytes": 2392707,
+      "sha256": "f4c2c4bb883950941c72ba170a837098ee99d1bc0711c39d2ac2635ce6fe9ba5",
+      "kind": "audio",
+      "language": "en",
+      "duration_seconds": 177.31582766439908,
+      "generator": "Local system speech synthesis; AAC encoding",
+      "voice": "Samantha (existing English system voice)",
+      "source": "briefing-script.en.md",
+      "reading_text": "reference-narration.en.md",
+      "review": "Exact reviewed synthesis input; audio signal and duration checked; no full independent listening claim"
+    },
+    {
+      "file": "alice-talk-courier.en.mp4",
+      "bytes": 6733255,
+      "sha256": "502678b55973cf02f0ddbd32deb3239669f80a6e8aa07fb20af6d75c63bfccd8",
+      "kind": "animated_film",
+      "language": "en",
+      "duration_seconds": 191.55759637188208,
+      "dimensions_pixels": [
+        1280,
+        720
+      ],
+      "frames_per_second": 24,
+      "generator": "Original programmed 2D animation with local system speech synthesis and original procedural musical pad",
+      "voice": "Samantha",
+      "reading_text": "courier-narration.en.md",
+      "captions": "courier-captions.en.srt",
+      "captions_burned_in": true,
+      "source": "Sanitized reviewed screenplay based on public project brief",
+      "review": "Internal agent claim/translation checks; representative encoded frames from all eleven scenes visually checked; full video/audio decode passed; no independent security audit or full independent listening claim"
+    },
+    {
+      "file": "courier-poster.en.png",
+      "bytes": 36575,
+      "sha256": "cb884e5f3e8a622b8820cf6816046fd3ad4500e53044f006c8d5ecacf172a46e",
+      "kind": "poster",
+      "language": "en",
+      "dimensions_pixels": [
+        1280,
+        720
+      ],
+      "generator": "Original drawn 2D illustration"
+    },
+    {
+      "file": "alice-talk-courier.tr.mp4",
+      "bytes": 7341656,
+      "sha256": "f2b41c32ac08844190a2fc1453391ef13990350e16ecfb86a40c317983472665",
+      "kind": "animated_film",
+      "language": "tr",
+      "duration_seconds": 214.48285714285714,
+      "dimensions_pixels": [
+        1280,
+        720
+      ],
+      "frames_per_second": 24,
+      "generator": "Original programmed 2D animation with local system speech synthesis and original procedural musical pad",
+      "voice": "Yelda",
+      "reading_text": "courier-narration.tr.md",
+      "captions": "courier-captions.tr.srt",
+      "captions_burned_in": true,
+      "source": "Sanitized reviewed screenplay based on public project brief",
+      "review": "Internal agent claim/translation checks; representative encoded frames from all eleven scenes visually checked; full video/audio decode passed; no independent security audit or full independent listening claim"
+    },
+    {
+      "file": "courier-poster.tr.png",
+      "bytes": 33316,
+      "sha256": "e7fe09199659071066407d1100079f0d790607d08fe1b17b4eff8e3b3e71e22c",
+      "kind": "poster",
+      "language": "tr",
+      "dimensions_pixels": [
+        1280,
+        720
+      ],
+      "generator": "Original drawn 2D illustration"
+    }
+  ],
+  "video": {
+    "status": "complete; two illustrated courier-film editions",
+    "editions": [
+      "alice-talk-courier.en.mp4",
+      "alice-talk-courier.tr.mp4"
+    ],
+    "storyboard": "courier-storyboard.en.md",
+    "proposed_features_labeled": true,
+    "earlier_technical_production_drafts": [
+      "video-script.en.md",
+      "video-storyboard.en.md"
+    ]
+  },
+  "excluded_drafts": "Interpretive NotebookLM audio drafts and an earlier technical video remain outside this package. The reviewed NotebookLM infographic is included."
+}

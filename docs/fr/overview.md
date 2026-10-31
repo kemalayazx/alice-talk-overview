@@ -1,5 +1,7 @@
 # Alice Talk — Présentation du projet et plan de recherche
 
+Supports de présentation : [animations en anglais et en turc, audio et infographie en anglais](../../media/README.md).
+
 **Nom provisoire :** Alice Talk est un nom de travail provisoire inspiré des personnages Alice et Bob habituellement utilisés dans les exemples de cryptographie. Le nom définitif du produit sera choisi ultérieurement ; ce nom de travail n’implique aucune affiliation avec une autre organisation.
 
 **Traduction :** traduction assistée. La [référence anglaise](../en/overview.md) fait autorité.
@@ -30,6 +32,8 @@ Le projet poursuit une finalité d’intérêt public : faciliter la communicati
 | Communication humain–IA et agent–agent | Il s’agit d’une extension de recherche proposée ; aucune intégration achevée destinée à la production n’est revendiquée. |
 | Assurance de sécurité | Des tests automatisés exécutés par le développeur vérifient le comportement de l’implémentation ; un audit indépendant de la cryptographie et de la protection de la vie privée reste à réaliser. |
 
+La messagerie actuelle applique aussi, par le code, l’approbation et le blocage des contacts aux messages en direct, au filtrage des messages reçus hors ligne et aux demandes de contrôle. Les appels, l’historique et l’acceptation des fichiers dépendent de choix propres à chaque action. Un relais configuré pour une admission sur invitation vérifie la possession des clés et l’appartenance. Ce sont des contrôles applicatifs et protocolaires délimités, pas un système général de permissions d’outils pour agents ni une preuve de sécurité complète.
+
 Ce dossier documentaire fournit une explication et un plan. Il ne constitue ni une distribution de l’implémentation, ni un rapport de tests reproductibles de manière indépendante, ni une certification de sécurité.
 
 ## 3. Fonctionnement conceptuel
@@ -54,6 +58,8 @@ flowchart LR
 ```
 
 L’acceptation par le relais et la lecture par le destinataire sont deux événements différents. La disponibilité d’un chemin de transport ne prouve pas qu’une autre personne a reçu ou lu un message.
+
+Le chemin d’envoi en direct distingue l’acceptation par le relais, un résultat explicitement hors ligne et un résultat incertain. Seul un résultat explicitement hors ligne sélectionne le chemin hors ligne séparé pour le texte ; un résultat direct incertain ne déclenche pas automatiquement un nouvel envoi hors ligne. Ces règles limitent les nouvelles tentatives ambiguës, sans garantir universellement une livraison exactement une fois.
 
 ## 4. Décentralisation et contrôle
 
@@ -238,3 +244,5 @@ Les comptes suivants portent sur les fichiers sources et de tests sélectionnés
 La documentation, les dépendances et fichiers tiers, les fichiers de verrouillage, les manifestes de paquets, les fichiers de déploiement/configuration, les bundles générés et les sorties de compilation sont exclus. Le compte comprend du code expérimental qui peut ne pas être relié à l’exécution active. C’est un instantané du code conservé, pas le nombre de lignes écrites depuis l’origine, ni une mesure de la contribution individuelle, de l’exhaustivité des fonctions ou de la sécurité.
 
 Les journaux bruts, chemins privés du code et historique de l’implémentation restent hors de ce dossier. Des éléments non confidentiels plus détaillés pourront faire l’objet d’une discussion séparée si cela est approprié.
+
+La ligne des utilitaires compte les outils JavaScript/TypeScript sélectionnés ; les utilitaires shell et la configuration de compilation sont hors de cette mesure.

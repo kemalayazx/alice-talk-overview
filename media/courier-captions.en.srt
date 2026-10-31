@@ -1,0 +1,131 @@
+1
+00:00:00,650 --> 00:00:03,443
+A message can be simple. See you at five.
+
+2
+00:00:03,623 --> 00:00:07,386
+But getting it from one person to another raises bigger questions.
+
+3
+00:00:07,566 --> 00:00:12,574
+Who can read it? Who may contact you? What happens when a phone is offline?
+
+4
+00:00:14,254 --> 00:00:18,800
+Imagine the message changing into an unreadable pattern before it leaves the phone.
+
+5
+00:00:18,980 --> 00:00:24,246
+It goes into a locked box. The intended recipient's device is designed to open it.
+
+6
+00:00:24,426 --> 00:00:26,884
+This is our picture of end to end encryption.
+
+7
+00:00:28,564 --> 00:00:32,332
+A courier carries the sealed box using delivery information.
+
+8
+00:00:32,512 --> 00:00:38,754
+In today's prototype, a relay helps messages travel. It is still an infrastructure dependency.
+
+9
+00:00:38,934 --> 00:00:44,919
+The encryption design aims to protect the content, while delivery information may remain visible.
+
+10
+00:00:46,599 --> 00:00:51,256
+Your phone checks contact approval and blocking separately from the message's words.
+
+11
+00:00:51,436 --> 00:00:57,125
+Calls, accepting files, and optional conversation history have their own choices.
+
+12
+00:00:57,305 --> 00:01:03,436
+With invitation-only mode configured, the relay also checks identity-key possession and membership.
+
+13
+00:01:05,116 --> 00:01:09,834
+Now imagine several couriers, each receiving instructions for the next leg.
+
+14
+00:01:10,014 --> 00:01:15,675
+This illustrates a proposed routing idea to investigate, not today's completed service.
+
+15
+00:01:15,855 --> 00:01:21,458
+A courier may still observe its immediate neighbors. We are not promising an invisible trail.
+
+16
+00:01:23,138 --> 00:01:28,242
+If the recipient is offline, encrypted text can wait on a temporary shelf.
+
+17
+00:01:28,422 --> 00:01:33,480
+That shelf has limits and lives in memory. A relay restart can lose waiting messages.
+
+18
+00:01:33,660 --> 00:01:36,825
+It is a temporary queue, not a permanent archive.
+
+19
+00:01:38,505 --> 00:01:42,250
+A box accepted by the relay is not a message read by a person.
+
+20
+00:01:42,430 --> 00:01:49,013
+When a live send has an uncertain outcome, the client does not automatically create a fresh offline send.
+
+21
+00:01:49,193 --> 00:01:54,355
+That avoids a blind second attempt. It is not a guarantee against every duplicate.
+
+22
+00:01:56,035 --> 00:02:00,395
+At the recipient's device, the sealed message becomes readable again.
+
+23
+00:02:00,575 --> 00:02:07,790
+Identity material has local vault protection. Keeping conversation history is a separate, optional choice.
+
+24
+00:02:07,970 --> 00:02:13,818
+Trusted keys and safe devices still matter. A locked box cannot repair a compromised phone.
+
+25
+00:02:15,498 --> 00:02:21,225
+Development corrected specific cancellation, cleanup, and identity-change races.
+
+26
+00:02:21,405 --> 00:02:26,351
+One verified developer run passed seven hundred thirty-seven automated tests.
+
+27
+00:02:26,531 --> 00:02:35,546
+An intermittent offline timeout and an invitation-bookkeeping conflict remain unresolved. Tests guide the work; they do not certify security.
+
+28
+00:02:37,226 --> 00:02:44,187
+Our next research direction brings people, devices, and artificial intelligence assistants into this picture.
+
+29
+00:02:44,367 --> 00:02:49,400
+An assistant might receive one task, with permission checked outside its own words.
+
+30
+00:02:49,580 --> 00:02:55,091
+That general permission layer is proposed research, not a capability already proven here.
+
+31
+00:02:56,771 --> 00:03:00,666
+Alice Talk is a temporary name for an experimental project.
+
+32
+00:03:00,846 --> 00:03:04,512
+The goal is useful communication with clearer human control.
+
+33
+00:03:04,692 --> 00:03:10,528
+Independent review and broader real-device testing are still needed. Help us test the next step.

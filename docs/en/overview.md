@@ -1,5 +1,7 @@
 # Alice Talk — Project Overview and Research Plan
 
+Presentation media: [Animated introductions in English and Turkish, English audio and infographic](../../media/README.md).
+
 **Working name:** “Alice Talk” is temporary, inspired by Alice and Bob, the conventional participants in cryptographic examples. A final product name will be chosen later; the working name implies no affiliation with another organization.
 
 **Purpose:** material intended for initial grant, developer-support and potential-partner review. This package is being prepared in a private repository before any later public release.
@@ -28,6 +30,8 @@ The project is motivated by public benefit: communication across languages and c
 | Human–AI and agent–agent communication | A proposed research extension; no completed production integration is claimed. |
 | Security assurance | Developer-run automated tests exercise implementation behavior; independent cryptographic and privacy audit remains outstanding. |
 
+The current messenger also applies code-enforced contact approval and blocking to live messages, offline receive filtering and control requests. Calls, history and file acceptance have action-specific user choices. A relay configured for invitation-only admission checks key possession and membership. These are bounded application and protocol controls; they do not constitute a general agent tool-permission system or a proof of complete security.
+
 This documentation package provides an explanation and a plan. It is not an implementation distribution, an independently reproducible test report or a security certification.
 
 ## 3. Conceptual operation
@@ -52,6 +56,8 @@ flowchart LR
 ```
 
 Relay acceptance and recipient reading are different events. An available transport path does not prove that another person received or read a message.
+
+The live-send path distinguishes relay acceptance, an explicit offline result and an uncertain outcome. Only an explicit offline result selects the separate offline path for text; an uncertain live outcome does not cause an automatic fresh offline send. These rules limit ambiguous retries; they are not a universal exactly-once delivery guarantee.
 
 ## 4. Decentralization and control
 
@@ -236,3 +242,5 @@ The following counts cover tracked, selected source and test files in the applic
 Documentation, dependency/vendor files, lockfiles, package manifests, deployment/configuration files, generated bundles and build output are excluded. The count includes experimental code that may not be connected to the active runtime. It is a snapshot of retained code, not the lifetime number of lines written, a measure of individual authorship, feature completeness or security.
 
 Raw logs, private source paths and implementation history remain outside this presentation package. More detailed non-confidential evidence can be discussed separately if appropriate.
+
+The developer-helper row counts selected JavaScript/TypeScript helpers; shell utilities and build configuration are outside this measurement.

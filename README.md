@@ -30,6 +30,10 @@ The brief also includes a dated engineering summary: a fresh developer-run **737
 
 The English edition is the reference text. Translations are machine-assisted and provided to make initial review more accessible; they are not certified translations.
 
+## Presentation media
+
+The [animated introduction, audio briefing and infographic](media/README.md) provide an optional introduction. The courier-and-locked-box film is available in English and Turkish. Read the media alongside the written brief, which gives the full status, privacy limits and qualifications behind the engineering figures.
+
 ## The proposed value
 
 - **For people:** communication and identity continuity across devices, with clear choices about local history and assistant participation.

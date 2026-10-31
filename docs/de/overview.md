@@ -1,5 +1,7 @@
 # Alice Talk — Projektübersicht und Forschungsplan
 
+Präsentationsmaterial: [Animation auf Englisch und Türkisch, englischer Audiobeitrag und Infografik](../../media/README.md).
+
 **Übersetzung:** Maßgeblich ist die [englische Referenzfassung](../en/overview.md).
 
 **Arbeitsname:** „Alice Talk“ ist ein vorläufiger Name, angelehnt an Alice und Bob, die üblichen Beteiligten in kryptografischen Beispielen. Der endgültige Produktname wird später gewählt. Der Arbeitsname deutet keine Verbindung zu einer anderen Organisation an.
@@ -30,6 +32,8 @@ Das Projekt verfolgt einen gemeinnützigen Nutzen: Kommunikation über Sprach- u
 | Mensch–KI- und Agent–Agent-Kommunikation | Eine geplante Forschungserweiterung; eine abgeschlossene Produktionsintegration wird nicht behauptet. |
 | Sicherheitsnachweise | Vom Entwickler ausgeführte automatisierte Tests prüfen das Implementierungsverhalten. Ein unabhängiges kryptografisches und datenschutzbezogenes Audit steht noch aus. |
 
+Der aktuelle Messenger setzt Kontaktfreigabe und Sperren durch Anwendungscode für Live-Nachrichten, den Empfang von Offline-Nachrichten und Steuerungsanfragen durch. Für Anrufe, Verlauf und Dateiannahme gibt es aktionsbezogene Nutzerentscheidungen. Ein für einladungsbasierte Zulassung konfiguriertes Relay prüft Schlüsselbesitz und Mitgliedschaft. Dies sind begrenzte Anwendungs- und Protokollkontrollen, kein allgemeines Werkzeugberechtigungssystem für Agenten und kein Beweis vollständiger Sicherheit.
+
 Dieses Dokumentationspaket enthält eine Erläuterung und einen Plan. Es ist keine Implementierungsdistribution, kein unabhängig reproduzierbarer Testbericht und keine Sicherheitszertifizierung.
 
 ## 3. Konzeptioneller Ablauf
@@ -54,6 +58,8 @@ flowchart LR
 ```
 
 Die Annahme durch das Relay und das Lesen durch den Empfänger sind verschiedene Ereignisse. Ein verfügbarer Übertragungsweg belegt nicht, dass eine andere Person eine Nachricht erhalten oder gelesen hat.
+
+Der Live-Sendepfad unterscheidet die Annahme durch das Relay, eine ausdrückliche Offline-Meldung und ein ungewisses Ergebnis. Nur eine ausdrückliche Offline-Meldung wählt für Text den getrennten Offline-Pfad; ein ungewisses Live-Ergebnis löst keinen automatischen neuen Offline-Versand aus. Diese Regeln begrenzen mehrdeutige Wiederholungen, garantieren aber keine ausnahmslos genau einmalige Zustellung.
 
 ## 4. Dezentralisierung und Kontrolle
 
@@ -238,3 +244,5 @@ Die folgenden Werte umfassen ausgewählte versionierte Quell- und Testdateien de
 Ausgeschlossen sind Dokumentation, Abhängigkeits- und Drittanbieterdateien, Lockdateien, Paketmanifeste, Bereitstellungs- und Konfigurationsdateien, generierte Bundles und Buildausgaben. Enthalten ist auch experimenteller Code, der möglicherweise nicht an die aktive Laufzeit angeschlossen ist. Dies ist eine Momentaufnahme erhaltenen Codes, nicht die insgesamt jemals geschriebene Zeilenzahl oder ein Maß für individuelle Urheberschaft, Funktionsvollständigkeit oder Sicherheit.
 
 Rohprotokolle, private Quellpfade und Implementierungshistorie bleiben außerhalb dieses Präsentationspakets. Weitere nicht vertrauliche Nachweise können gegebenenfalls gesondert besprochen werden.
+
+Die Zeile der Entwicklerhilfen zählt ausgewählte JavaScript-/TypeScript-Hilfen; Shell-Werkzeuge und Buildkonfiguration liegen außerhalb dieser Messung.

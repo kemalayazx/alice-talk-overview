@@ -12,6 +12,8 @@ This repository supports an initial assessment of Alice Talk's goals, current pr
 
 The English [project brief](docs/en/overview.md) is the reference edition. Each translation covers the same core reviewer material.
 
+The [presentation media](media/README.md), including an illustrated introduction in English and Turkish, are optional companions. The written brief remains the reference when a shortened media description needs context.
+
 ## Questions worth asking
 
 - Is the proposed experiment sufficiently bounded to produce useful evidence?

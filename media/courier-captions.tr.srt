@@ -1,0 +1,131 @@
+1
+00:00:00,650 --> 00:00:04,707
+Bir mesaj çok basit olabilir. Saat beşte görüşürüz.
+
+2
+00:00:04,887 --> 00:00:09,274
+Ama onu bir insandan diğerine ulaştırmak daha büyük sorular doğurur.
+
+3
+00:00:09,454 --> 00:00:14,704
+Kim okuyabilir? Kim sana ulaşabilir? Telefon çevrimdışıyken ne olur?
+
+4
+00:00:16,384 --> 00:00:21,454
+Mesajın telefondan çıkmadan önce okunamayan bir desene dönüştüğünü düşün.
+
+5
+00:00:21,634 --> 00:00:27,279
+Kilitli bir kutuya giriyor. Onu açabilmesi amaçlanan cihaz, alıcının cihazı.
+
+6
+00:00:27,459 --> 00:00:30,522
+Uçtan uca şifrelemeyi böyle resmediyoruz.
+
+7
+00:00:32,202 --> 00:00:36,481
+Kurye, teslimat bilgilerini kullanarak kapalı kutuyu taşır.
+
+8
+00:00:36,661 --> 00:00:43,923
+Bugünkü prototipte mesajın yolculuğuna bir aktarıcı yardım eder. Sistem hâlâ bu altyapıya bağlıdır.
+
+9
+00:00:44,103 --> 00:00:50,241
+Şifreleme tasarımı içeriği korumayı amaçlar; teslimat bilgileri ise görünür kalabilir.
+
+10
+00:00:51,921 --> 00:00:57,703
+Telefonun, kişi onayını ve engellemeyi mesajın sözlerinden ayrı kontrol eder.
+
+11
+00:00:57,883 --> 00:01:03,570
+Aramalar, dosya kabulü ve isteğe bağlı konuşma geçmişinin ayrı seçimleri vardır.
+
+12
+00:01:03,750 --> 00:01:10,721
+Davetiye modu yapılandırıldığında aktarıcı da kimlik anahtarına sahip olmayı ve üyeliği kontrol eder.
+
+13
+00:01:12,401 --> 00:01:16,786
+Şimdi her birine sonraki adımın talimatı verilen birkaç kurye düşün.
+
+14
+00:01:16,966 --> 00:01:23,950
+Bu, araştırılması önerilen bir yönlendirme fikrini anlatıyor; bugünün tamamlanmış hizmetini değil.
+
+15
+00:01:24,130 --> 00:01:29,513
+Kurye hemen yanındaki durakları yine görebilir. Görünmez bir iz vaat etmiyoruz.
+
+16
+00:01:31,193 --> 00:01:35,591
+Alıcı çevrimdışıysa şifreli metin geçici bir rafta bekleyebilir.
+
+17
+00:01:35,771 --> 00:01:42,755
+Bu raf sınırlıdır ve bellekte tutulur. Aktarıcı yeniden başlarsa bekleyen mesajlar kaybolabilir.
+
+18
+00:01:42,935 --> 00:01:46,180
+Bu, kalıcı arşiv değil, geçici bir kuyruktur.
+
+19
+00:01:47,860 --> 00:01:52,699
+Aktarıcının kutuyu kabul etmesi, insanın mesajı okuması değildir.
+
+20
+00:01:52,879 --> 00:01:59,915
+Canlı gönderimin sonucu belirsizse istemci otomatik olarak yeni bir çevrimdışı gönderim oluşturmaz.
+
+21
+00:02:00,095 --> 00:02:06,741
+Böylece körlemesine ikinci deneme yapılmaz. Bu, her yinelenmeyi önleme garantisi değildir.
+
+22
+00:02:08,421 --> 00:02:12,992
+Kapalı mesaj, alıcının cihazında yeniden okunabilir hâle gelir.
+
+23
+00:02:13,172 --> 00:02:20,256
+Kimlik bilgileri yerel kasa korumasına sahiptir. Konuşma geçmişini saklamak ayrı ve isteğe bağlıdır.
+
+24
+00:02:20,436 --> 00:02:28,465
+Güvenilen anahtarlar ve güvenli cihazlar hâlâ önemlidir. Kilitli kutu, ele geçirilmiş telefonu düzeltemez.
+
+25
+00:02:30,145 --> 00:02:36,653
+Geliştirme sırasında iptal, temizlik ve kimlik değişimiyle ilgili belirli çakışmalar düzeltildi.
+
+26
+00:02:36,833 --> 00:02:42,411
+Doğrulanan bir geliştirici çalıştırmasında yedi yüz otuz yedi otomatik test geçti.
+
+27
+00:02:42,591 --> 00:02:52,202
+Aralıklı bir çevrimdışı zaman aşımı ve davetiye takibindeki bir çakışma hâlâ çözülmedi. Testler yol gösterir; güvenliği belgelemez.
+
+28
+00:02:53,882 --> 00:03:01,551
+Sonraki araştırma yönümüz, bu resme insanları, cihazları ve yapay zekâ yardımcılarını birlikte katıyor.
+
+29
+00:03:01,731 --> 00:03:08,089
+Yardımcıya tek bir görev verilebilir; izni, kendi sözlerinin dışında kontrol edilebilir.
+
+30
+00:03:08,269 --> 00:03:15,032
+Bu genel yetkilendirme katmanı bir araştırma önerisidir; burada kanıtlanmış bir yetenek değildir.
+
+31
+00:03:16,712 --> 00:03:20,320
+Alice Talk, deneysel bir projenin geçici adıdır.
+
+32
+00:03:20,500 --> 00:03:25,396
+Hedef, insanın kontrolünü daha açık tutan faydalı bir iletişimdir.
+
+33
+00:03:25,576 --> 00:03:33,453
+Bağımsız inceleme ve daha geniş gerçek cihaz testleri hâlâ gerekiyor. Bir sonraki adımı sınamamıza destek olun.
