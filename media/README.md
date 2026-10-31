@@ -2,7 +2,19 @@
 
 These media introduce the [English project brief](../docs/en/overview.md). The written brief is the reference for capabilities, limitations and engineering figures. Alice Talk is a temporary working title inspired by the conventional Alice/Bob cryptographic examples.
 
-## Animated introduction
+## NotebookLM educational video · English
+
+![Alice Talk: Message Journey, an English illustrated lesson about phone encryption and a sealed parcel.](notebooklm-cartoon-poster.en.png)
+
+[Watch **Alice Talk: Message Journey**](alice-talk-notebooklm.en.mp4), approximately **5:00** in this edited edition. NotebookLM generated the cartoon illustrations and English narration from a sanitized teaching brief and the approved visual reference. Its Video Overview uses illustrated scenes and transitions; it is not a recording of the actual app.
+
+The story mainly teaches current prototype behavior: encryption on the sending phone, relay-assisted transport, recipient-side contact choices, a bounded temporary offline queue, honest delivery status and the dated development evidence. General agent permissions and multi-stop routing appear in a separate **Proposed Future Research** section.
+
+The original NotebookLM output was about 5:46. Editorial cuts at natural pauses removed two passages that exceeded the written brief's claims. A brief hold of an existing illustration accompanies the retained arrival sentence. No local system narration was added. The original is retained outside this presentation package.
+
+The relay admission illustration assumes the **invitation-only configuration**. The delivery label is a metaphor for routing information, not a claim that all other connection metadata are hidden. Identity vault protection and optional conversation history are distinct in the reference brief. A small reference-image thumbnail in one scene is supplementary; its text is not intended for reading at that scale.
+
+## Original animated introductions
 
 ![A message, in your hands: a phone, a sealed parcel and the intended recipient's key.](courier-poster.en.png)
 

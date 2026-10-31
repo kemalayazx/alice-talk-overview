@@ -32,7 +32,7 @@ The English edition is the reference text. Translations are machine-assisted and
 
 ## Presentation media
 
-The [animated introduction, audio briefing and infographic](media/README.md) provide an optional introduction. The courier-and-locked-box film is available in English and Turkish. Read the media alongside the written brief, which gives the full status, privacy limits and qualifications behind the engineering figures.
+The [animated introduction, audio briefing and infographic](media/README.md) provide an optional introduction. The English NotebookLM educational video leads the collection; the original courier-and-locked-box animations remain available in English and Turkish. Read the media alongside the written brief, which gives the full status, privacy limits and qualifications behind the engineering figures.
 
 ## The proposed value
 
