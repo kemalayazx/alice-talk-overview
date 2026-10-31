@@ -4,7 +4,7 @@ Presentation media: [Animated introductions in English and Turkish, English audi
 
 **Working name:** “Alice Talk” is temporary, inspired by Alice and Bob, the conventional participants in cryptographic examples. A final product name will be chosen later; the working name implies no affiliation with another organization.
 
-**Purpose:** material intended for initial grant, developer-support and potential-partner review. This package is being prepared in a private repository before any later public release.
+**Purpose:** material intended for initial grant, developer-support and potential-partner review. This package contains public-facing documentation and presentation media; implementation source and operational data are excluded.
 
 **Status:** an independent, pre-release project with an experimental encrypted messaging prototype. Its cryptographic composition has not completed an independent security or privacy audit. The agent layer and broader cross-device interoperability are proposed research.
 

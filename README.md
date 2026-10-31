@@ -2,7 +2,7 @@
 
 **Temporary working name:** inspired by Alice and Bob, the conventional participants in cryptographic examples. The final product name will be chosen later. No affiliation with another organization is implied.
 
-**Preparation status:** this repository is private while the review package is prepared. Public release is a later, separate step.
+**Review package:** public-facing documentation and presentation media for initial grant and technical assessment. Implementation source and operational data are excluded.
 
 ## Project overview for grant and technical review
 
@@ -61,6 +61,6 @@ No funding award, partner endorsement or production-security certification is cl
 
 ## Repository scope
 
-This repository contains presentation material intended for eventual public review. Implementation source, credentials, operational configuration, private correspondence and personal account information are outside its scope. See [Publication scope](PUBLICATION-SCOPE.md).
+This repository contains presentation material for public review. Implementation source, credentials, operational configuration, private correspondence and personal account information are outside its scope. See [Publication scope](PUBLICATION-SCOPE.md).
 
 Project owner: [kemalayazx](https://github.com/kemalayazx). For correspondence, use the channel through which this material was shared.

@@ -6,7 +6,7 @@ Präsentationsmaterial: [Animation auf Englisch und Türkisch, englischer Audiob
 
 **Arbeitsname:** „Alice Talk“ ist ein vorläufiger Name, angelehnt an Alice und Bob, die üblichen Beteiligten in kryptografischen Beispielen. Der endgültige Produktname wird später gewählt. Der Arbeitsname deutet keine Verbindung zu einer anderen Organisation an.
 
-**Zweck:** Unterlagen für eine erste Prüfung im Rahmen von Förderungen, Entwicklerunterstützung und möglichen Partnerschaften. Dieses Paket wird vor einer etwaigen späteren Veröffentlichung in einem privaten Repository vorbereitet.
+**Zweck:** Unterlagen für eine erste Prüfung im Rahmen von Förderungen, Entwicklerunterstützung und möglichen Partnerschaften. Dieses Paket enthält Dokumentation und Präsentationsmedien für eine öffentliche Prüfung; Implementierungsquellcode und Betriebsdaten sind ausgeschlossen.
 
 **Stand:** Ein unabhängiges Projekt vor der Veröffentlichung mit einem experimentellen Prototyp für verschlüsselte Nachrichten. Die Kombination seiner kryptografischen Verfahren hat noch kein unabhängiges Sicherheits- oder Datenschutzaudit abgeschlossen. Die Agentenschicht und eine umfassendere geräteübergreifende Interoperabilität sind geplante Forschung.
 

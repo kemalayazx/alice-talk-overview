@@ -6,7 +6,7 @@ Tanıtım materyalleri: [İngilizce ve Türkçe animasyon, İngilizce sesli öze
 
 **Çalışma adı:** “Alice Talk” geçici bir addır; kriptografi örneklerinde geleneksel olarak kullanılan Alice ve Bob katılımcılarından esinlenmiştir. Nihai ürün adı daha sonra seçilecektir. Çalışma adı, başka bir kuruluşla herhangi bir bağlantı olduğu anlamına gelmez.
 
-**Amaç:** Hibe, geliştirici desteği ve olası iş ortaklığı için ilk değerlendirmede kullanılacak materyal sunmak. Bu paket, ilerideki olası bir kamuya açık yayımdan önce özel bir depoda hazırlanmaktadır.
+**Amaç:** Hibe, geliştirici desteği ve olası iş ortaklığı için ilk değerlendirmede kullanılacak materyal sunmak. Bu paket, kamuya açık değerlendirmeye yönelik tanıtım belgeleri ve sunum materyalleri içerir; uygulama kaynak kodunu ve operasyonel verileri kapsamaz.
 
 **Durum:** Deneysel bir şifreli mesajlaşma prototipi bulunan, bağımsız ve henüz yayımlanmamış bir proje. Kriptografik bileşiminin bağımsız güvenlik veya gizlilik denetimi tamamlanmamıştır. Ajan katmanı ve cihazlar arasında daha kapsamlı birlikte çalışabilirlik, önerilen araştırma alanlarıdır.
 

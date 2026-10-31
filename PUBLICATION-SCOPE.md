@@ -1,6 +1,6 @@
 # Publication Scope
 
-This repository prepares a presentation package for initial grant and technical review. It remains private during preparation; any public release is a separate later step.
+This repository contains a presentation package for initial grant and technical review. Its scope is public-facing documentation and presentation media; implementation source and operational data are excluded.
 
 ## Included
 

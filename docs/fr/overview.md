@@ -6,7 +6,7 @@ Supports de présentation : [animations en anglais et en turc, audio et infograp
 
 **Traduction :** traduction assistée. La [référence anglaise](../en/overview.md) fait autorité.
 
-**Objet :** document destiné à une première évaluation en vue d’une subvention, d’un soutien aux développeurs ou d’un éventuel partenariat. Ce dossier est préparé dans un dépôt privé avant toute publication ultérieure.
+**Objet :** document destiné à une première évaluation en vue d’une subvention, d’un soutien aux développeurs ou d’un éventuel partenariat. Ce dossier contient une documentation et des supports de présentation destinés à un examen public ; le code source de l’implémentation et les données opérationnelles en sont exclus.
 
 **État du projet :** projet indépendant, encore en phase de préversion, comprenant un prototype expérimental de messagerie chiffrée. L’assemblage de ses mécanismes cryptographiques n’a pas encore fait l’objet d’un audit indépendant de sécurité ou de protection de la vie privée mené à son terme. La couche d’agents et l’interopérabilité élargie entre appareils relèvent de recherches proposées.
 
